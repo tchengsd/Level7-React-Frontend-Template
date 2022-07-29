@@ -1,10 +1,10 @@
 export const properties = {
-    courseName: 'Level 7 Animal Search',
-    endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Here is a brief description of the project.  Try to keep it to two or three sentences',
-    backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Student One, Student Two, Student Three',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/Cheetah-Search'
+    courseName: 'Level 7 University Search',
+    endpoint: 'http://localhost:5000/swagger-ui.html#/loc-controller/searchLocResults?q=',
+    description: 'Searches for universities in the United States with names that match the query.',
+    backendSwaggerUrl: 'https://unisearch.api.jointheleague.org/',
+    createdBy: 'Tyler Cheng',
+    repositoryUrl: 'https://github.com/tchengsd/Level7ProjectTC'
 };
 
 /*
