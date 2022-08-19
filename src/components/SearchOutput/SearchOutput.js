@@ -8,9 +8,12 @@ const SearchOutput = (props) => {
 
     if (props.term && props.results.length !== 0) {
         message = <p>Showing {props.results.length} results</p>;
-    } else if (props.term) {
+    }
+    else if (props.term) {
+        console.log(props.results.length)
         message = <Spinner/>;
-    } else if (props.term === null){
+    }
+     else if (props.term === null){
         message = "no results found";
     }
 

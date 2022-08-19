@@ -1,6 +1,6 @@
 export const properties = {
     courseName: 'Level 7 University Search',
-    endpoint: 'http://localhost:5000/swagger-ui.html#/loc-controller/searchLocResults?q=',
+    endpoint: 'http://localhost:5000/swagger-ui.html#/loc-controller/searchLocResults',
     description: 'Searches for universities in the United States with names that match the query.',
     backendSwaggerUrl: 'https://unisearch.api.jointheleague.org/',
     createdBy: 'Tyler Cheng',
